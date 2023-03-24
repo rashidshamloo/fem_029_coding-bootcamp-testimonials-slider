@@ -56,10 +56,10 @@ https://user-images.githubusercontent.com/121501991/227599266-6f63d7d5-d011-4c1d
 - Detecting swipe left/right from a touch device using `react-swipeable` hook
 - Using `bg-[length:]` to set arbitrary value for background size in Tailwind CSS
 - Why `margin-top` moves the parent down (margin collapsing) instead of leaving an empty space and how to fix it (`overflow:auto;` on parent)
-- Using `Framer Motion` animation library with React
+- Using `Framer Motion` animation library with React.js
 - Using `variants` in Framer Motion
 - Using `<AnimationPresence>` in Framer Motion to keep animating components when they're removed from the DOM
-- Using `useRef()` hook in TypeScript (`const ref = useRef<HTMLInputElement | null>(null);`)
+- Using `useRef()` hook in TypeScript
 - Adding custom breakpoints in Tailwind CSS
 
 ### Useful resources
