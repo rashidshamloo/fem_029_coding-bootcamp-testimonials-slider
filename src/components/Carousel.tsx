@@ -5,13 +5,13 @@ import { ITestimonialProps as TestimonialPropsType } from "./Testimonial";
 // swipe hook
 import { useSwipeable } from "react-swipeable";
 
-export interface IAppProps {
+export interface ICarouselProps {
   children: Array<React.ReactNode>;
   changeTransition: Function;
   transition: String;
 }
 
-function Carousel({ children, changeTransition, transition }: IAppProps) {
+function Carousel({ children, changeTransition, transition }: ICarouselProps) {
   const [index, setIndex] = useState(0);
   // swipe handlers
   const handlers = useSwipeable({
