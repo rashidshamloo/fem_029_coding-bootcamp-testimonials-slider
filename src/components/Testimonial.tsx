@@ -38,7 +38,7 @@ function Testimonial({
         >
           <article
             className={
-              'mt-8 overflow-auto bg-[url("images/pattern-bg.svg")] bg-[length:87%] bg-[center_top_1.6rem] bg-no-repeat md:relative md:isolate md:mt-0 md:flex md:h-full md:w-full md:items-center md:justify-start md:bg-[length:48%] md:bg-testimonial'
+              'mt-8 overflow-auto bg-[url("/images/pattern-bg.svg")] bg-[length:87%] bg-[center_top_1.6rem] bg-no-repeat md:relative md:isolate md:mt-0 md:flex md:h-full md:w-full md:items-center md:justify-start md:bg-[length:48%] md:bg-testimonial'
             }
           >
             <h1 className="sr-only">Testimonial</h1>
@@ -68,7 +68,7 @@ function Testimonial({
                 </button>
               </div>
             </div>
-            <div className="mx-auto mt-14 w-[86%] bg-[url('images/pattern-quotes.svg')] bg-[length:19%] bg-top bg-no-repeat pt-6 text-center text-lg leading-6 md:mt-0 md:ml-[11.5%] md:h-[45%] md:w-[45%] md:bg-[left_18%_top] md:pt-[4%] md:text-left md:text-[0.65rem] lg:overflow-auto lg:text-[0.79rem] xl:text-base">
+            <div className="mx-auto mt-14 w-[86%] bg-[url('/images/pattern-quotes.svg')] bg-[length:19%] bg-top bg-no-repeat pt-6 text-center text-lg leading-6 md:mt-0 md:ml-[11.5%] md:h-[45%] md:w-[45%] md:bg-[left_18%_top] md:pt-[4%] md:text-left md:text-[0.65rem] lg:overflow-auto lg:text-[0.79rem] xl:text-base">
               <q className="md:text-[2em] xl:leading-[2.725rem] ">
                 &nbsp;{data.testimonial}&nbsp;
               </q>
